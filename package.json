@@ -1,0 +1,16 @@
+{
+  "name": "barebones-ts-rest-api-testing",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["jest", "typescript", "ts", "rest", "testing"],
+  "author": "",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
