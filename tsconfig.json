@@ -7,5 +7,11 @@
     "esModuleInterop": true,
     "strict": true
   },
-  "exclude": ["node_modules", "tests"]
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "__tests__"]
 }

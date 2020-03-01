@@ -1,11 +1,9 @@
 import express from "express";
+import { router } from "../routes";
+
 const app = express();
 const port: number = 8085;
 
-app.get("/", (_request, response) => {
-  response.json({
-    message: "Hello world!"
-  });
-});
+app.use("/", router);
 
 module.exports = app.listen(port);
