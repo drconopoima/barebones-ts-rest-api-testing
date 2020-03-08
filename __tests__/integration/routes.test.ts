@@ -1,6 +1,6 @@
 const supertest = require("supertest");
-const app = require("../src/server");
-const { Listing } = require("../src/database/listings");
+const app = require("../../src/server");
+const { Listing } = require("../../src/database/listings");
 
 describe("Main app endpoint", () => {
   it("responds to request", async () => {
